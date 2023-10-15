@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.traffic-light {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black; /* Set the background color to black */
+  height: 300px;
+  width: 150px;
+  border-radius: 75px;
+  /* Set the desired height for the traffic light */
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: background-color 0.5s; /* Add a transition for smooth blinking effect */
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.active {
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.7);
+}
